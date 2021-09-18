@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>CodeCore Pizza</title>
+  <meta charset="UTF=8">
+  <link rel="stylesheet" href="pizzacss.html">
+<style>
+h1{
+    font-size: 50px;
+        color: #ff8000;
+     text-align: center;
+}
+table{
+    font-size:16px;
+    padding:"0";
+}
+
+.sss{
+    font-size:30px;
+}
+.specialties{
+    text-decoration-line:underline;
+    font-size:20px;
+}
+
+.fieldset{
+background-color:#ffcccc;
+
+}
+.legend{
+    color:rgb(0,0,255);
+    font-size:20px;
+}
+.rrr input{
+    font-size:20px;
+    width:200px;
+}
+</style>
+ </head>
+<body>
+     
+    <h1><strong>CodeCore Pizza</strong></h1> 
+    <br>
+    <h2 class="sss"><strong>Hours of Operation</strong></h2>
+
+     <table border="1" cellspacing="0"    width="80%" >
+     <thead id>
+     <tr>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+        <th>Saturday</th>
+        <th>Sunday</th>
+    </tr>
+</thead>
+<tbody>
+<tr>
+
+<td style="text-align:center;">9am-11pm</td>
+<td style="text-align:center;">9am-11pm</td>
+<td style="text-align:center;">9am-11pm</td>
+<td style="text-align:center;">9am-11pm</td>
+<td style="text-align:center;">9am-11pm</td>
+<td style="text-align:center;">9am-1pm</td>
+<td style="text-align:center;">Closed</td>
+
+</tr>
+</tbody>
+</table>
+<h2 class="sss"><strong>Discounts</strong></h2>
+
+
+<ul>
+    
+<li><strong>Monday</strong>:15% off all orders over $16</li>
+<br>
+<li><strong>Wednesday</strong>:50% off any Pizzas by online order</li>
+<br>
+<li> <a href ="/home/rubalpreet/Desktop/bogo-deal.html">Click here for BOGO deal</a></li>
+   
+</ul>
+
+<h2 class="sss"><strong>Specialties</strong></h2>
+
+<dl>
+    <dl class="specialties" ><strong>Margherita</strong></dl>
+    <dd>A classic delight with 100% Real mozzarella cheese.</dd>
+    <br>
+     <dl class="specialties"><strong>Farmhouse</strong></dl>
+ <dd>Delightful combination of onion ,capsicum,tomato & grilled mushroom.</dd>
+<br>
+<dl class="specialties"><strong>Veg Extravaganza</strong></dl>
+
+<dd>Black olives,capsicum,onion,grilled mushroom,corn,tomato,jalapeno & extra cheese.</dd>
+<br>
+<dl class="specialties"><strong>Creamy Tomato Pasta Pizza-Veg </strong></dl>
+<dd>Loaded with a delicious creamy tomato pasta topping,green capsicum,crunchy red and yellow bell peppers and black olives.</dd>
+
+</dl>
+
+
+<br>
+<h2 class="sss"><strong>Custom</strong></h2> 
+<form>
+    <fieldset class="fieldset">
+        <legend class="legend"><strong>Toppings</strong></legend>
+<br>
+<input type="radio" id="Spinach" name="spinach">
+    <lable for="spinach">Spinach</lable>
+
+    <input type="radio" id="pepproni" name="pepproni">
+    <lable for="pepproni">Pepproni</lable>
+
+    <input type="radio" id="Mushroom" name="mushroom">
+    <lable for="Mushroom">Mushroom</lable>
+
+    <input type="radio" id="Tomato" name="tomato">
+    <lable for="Tomato">Tomato</lable>
+
+    <input type="radio" id="Chicken" name="Chicken">
+    <lable for="Chicken">Chicken</lable>
+
+
+    <input type="radio" id="Anchovies" name="Anchovies">
+    <lable for="spinach">Anchovies</lable>
+
+   </fieldset>
+   <br>
+   <fieldset class="fieldset">
+   <legend class="legend"><b>Sauce *Required</b></legend>
+
+   <input type="radio" id="Pesto"  name="pesto">
+<label for="pesto">pesto</label>
+
+<input type="radio" id="marinara"  name="marinara">
+<label for="marinara">Marinara</label>
+
+<input type="radio" id="hummus"  name="hummus">
+<label for="hummus">Hummus</label>
+
+
+<input type="radio" id="barbeque"  name="barbeque">
+<label for="barbeque">Barbeque</label>
+
+
+</fieldset>
+<br>
+<fieldset class="fieldset">
+    <legend class="legend"><b>Size</b></legend>
+
+<select >
+  
+ <option value="small">Small</option>
+  <option value="medium">Medium</option>
+  <option value="large">Large</option>
+
+</select>
+</fieldset>
+<br>
+<fieldset class="fieldset">
+<legend class="legend"><b>Contact info</b></legend>
+
+   <label for="name">Name</label> 
+   <input  id =" name" type="text">
+    <br>
+    
+    <label for="email">  Email </label>
+      <input type="email"  id="email"  name="email">
+    <br>
+    <label for="datetime-local"> Time of delivery</label>
+      <input type="datetime-local"  id="datetime-local"  >
+      
+    
+</fieldset>
+<br>
+<div  class="rrr">
+<input type="submit" value="Reset form">
+<input type="submit" value="Place order"  onclick="alert('order successfully')" >
+      <br>
+         
+   </div > 
+
+</form>
+<br>
+<p ><a href="/home/rubalpreet/Desktop/thankyou.html">Thankyou for visiting CodeCore pizza</a></p>
+
+</body>
+
+</html>
+
+
+
+
+
